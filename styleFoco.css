@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-color: yellow;
+}
+
+.foco-encendido{
+   width: 100%;
+}
+.foco-encendido img{
+
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.boton{
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 82vh;
+    
+    
+}
+
+.boton button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.boton img{
+   
+    height: 9vh;
+    cursor: pointer;
+}
